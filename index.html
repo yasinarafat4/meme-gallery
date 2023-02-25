@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome To My Awesome Meme Store</title>
+    <title>Awesome Meme Store</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css"
       rel="stylesheet"
@@ -15,13 +15,14 @@
   <body>
     <section>
       <h1 class="text-center font-bold text-3xl my-12">
-        Welcome To MEME World
+        Welcome To The MEME World
       </h1>
+      <button onclick="loadMeme()" class="btn btn-primary m-12">Refresh</button>
     </section>
 
     <section
-      id="section"
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-12"
+      id="section-container"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-12 mx-auto"
     ></section>
 
     <img src="" alt="" />
